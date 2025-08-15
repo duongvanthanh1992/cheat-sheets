@@ -1,0 +1,16 @@
+[book]
+title = "Infrastructure & Automation Cheat Sheets"
+authors = ["Duong Van Thanh"]
+language = "en"
+src = "."
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/duongvanthanh1992/cheat-sheets"
+git-repository-icon = "fa-github"
+copy-font = true
