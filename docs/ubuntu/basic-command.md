@@ -1,19 +1,5 @@
----
-title: Find
-date: 2020-12-28 16:52:20
-tags:
-  - search
-  - file
-  - directory
-categories:
-  - Linux Command
-intro: |
-  This is a quick reference list of cheatsheet for linux find command, contains common options and examples.
-plugins:
-  - copyCode
----
-
-## Getting Started
+# Linux Command
+This is a quick reference list of cheatsheet for linux find command, contains common options and examples.
 
 ### Usage
 
@@ -21,18 +7,14 @@ plugins:
 $ find [path...] [options] [expression]
 ```
 
-Wildcard
 
-```shell script
+
+```shell
+# Wildcard
 $ find . -name "*.txt"
 $ find . -name "2020*.csv"
 $ find . -name "json_*"
 ```
-
----
-
-- [Regex reference](/regex) _(cheatsheets.zip)_
-- [Find cheatsheet](https://gist.github.com/gr1ev0us/3a9b9d9dbdd38f6379288eb2686fc538) _(gist.github.com)_
 
 ### Option Examples {.col-span-2}
 
